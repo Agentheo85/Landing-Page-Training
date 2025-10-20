@@ -1,0 +1,164 @@
+* {
+     font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #101922;
+
+}
+
+header {
+   text-align: center;
+     left: 50%;
+     transform: translate(-50%, 0%);
+     position: relative;
+    width:  70%;
+}
+header div {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+header div ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header div li {
+    font-weight: 500;
+    text-align: center;
+    margin: 10px;
+}
+
+.button {
+    background-color: #0d7ff2;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#Header_End {
+    width: 75%;
+    margin: 5px auto;
+    border: 1px solid #ffffff10;
+}
+
+.Presentation {
+    align-items: center;
+    text-align: center;
+}
+.Presentation h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+    background: linear-gradient(90deg,rgba(247, 255, 0, 1) 0%, rgba(237, 155, 83, 1) 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Presentation p {
+    font-size: 1em;
+    width: 58%;
+    margin: auto;
+}
+.Presentation div {
+    font-weight: 600;
+    width: 15%;
+    padding: 10px 15px;
+    margin: 35px auto;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+
+
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+.Main > div{
+  margin-top: 8%;
+}
+
+.Main div p {
+    margin-top: 8px;
+}
+
+.Cards {
+    display: flex;
+    margin: 0px 25px;
+    margin-top: 30px;
+
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: left;
+    background-color: #182634;
+    height: fit-content;
+    border-radius: 0.5em;
+    padding: 20px;
+    border: 1px solid #223649;
+
+}
+
+.Card div{
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #182634;
+}
+
+.Card_Price {
+     display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: left;
+    background-color: #182634;
+    height: 375px;
+    width: 60%;
+    border-radius: 0.5em;
+    padding: 20px;
+    border: 1px solid #223649;
+    justify-content: space-between;
+}
+
+.Card_Price ul{
+list-style: none;
+padding: 0px;
+}
+.Card_Price ul li {
+ display: flex;
+  align-items: center; /* centre verticalement */
+  padding: 5px 0px;
+}
+
+.Card_Price ul li::before{
+    padding-right: 10px;
+    content: url(check_24dp_0845FD_FILL0_wght400_GRAD0_opsz24.svg);
+}
+
+
+.Header_Card{
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #182634;
+}
+
+
+.Header_Card p{
+    color: #90adcb;
+}
