@@ -41,7 +41,7 @@ header div li {
   text-align: center;
 }
 
-#Header_End {
+.Line {
   width: 75%;
   margin: 5px auto;
   border: 1px solid #ffffff10;
@@ -106,7 +106,8 @@ header div li {
   margin: 10px;
   text-align: left;
   background-color: #182634;
-  height: fit-content;
+  height: 17vh;
+  width: 55vh;
   border-radius: 0.5em;
   padding: 20px;
   border: 1px solid #223649;
@@ -195,4 +196,40 @@ header div li {
   padding: 0px 10px;
   background-color: #0d7ff2;
   border-radius: 1em;
+}
+
+footer {
+  padding-top: 3vh;
+}
+
+footer div ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer div ul li {
+  text-align: center;
+  width: 15vh;
+  margin: 0px 50px;
+  margin-bottom: 2vh;
+  color: #90adcb;
+}
+
+.IconsList {
+  display: flex;
+  justify-content: center;
+}
+
+.IconsList svg {
+  margin: 0px 10px;
+}
+
+footer p {
+  color: #90adcb;
+  text-align: center;
+}
+
+footer p {
+  padding: 2vh 0vh;
 }
